@@ -1,0 +1,27 @@
+# debian buster source list
+
+deb http://deb.debian.org/debian buster main
+deb-src http://deb.debian.org/debian buster main
+
+# non free
+deb http://deb.debian.org/debian buster main contrib non-free
+deb-src http://deb.debian.org/debian buster main contrib non-free
+
+deb http://de.debian.org/debian-security/ buster/updates main
+deb-src http://deb.debian.org/debian-security/ buster/updates main
+
+# non free
+deb http://deb.debian.org/debian buster/updates main contrib non-free
+deb-src http://deb.debian.org/debian buster/updates main contrib non-free
+
+deb http://deb.debian.org/debian buster-updates main
+deb-src http://deb.debian.org/debian buster-updates main
+
+# non free
+deb http://deb.debian.org/debian buster-updates main contrib non-free
+deb-src http://deb.debian.org/debian buster-updates main contrib non-free
+
+
+# backports 
+deb http://deb.debian.org/debian buster-backports main contrib non-free
+deb-src http://deb.debian.org/debian buster-backports main contrib nono-free
